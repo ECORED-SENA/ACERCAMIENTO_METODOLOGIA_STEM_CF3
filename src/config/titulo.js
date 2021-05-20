@@ -1,2 +1,2 @@
 module.exports =
-  'Componente Formativo con un nombre extremadamente largo y extenso'
+  'Diseño, Planificación y Evaluación de experiencias STEM'

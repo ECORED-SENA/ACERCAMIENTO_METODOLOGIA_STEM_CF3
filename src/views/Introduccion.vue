@@ -16,7 +16,9 @@
 
     PasosA.color-acento-contenido.mb-5(tipo="n" :datos="datosPasosA")
 
-    p.mb-5 Luego de reconocer el contexto y las condiciones de aprendizaje que debes aplicar día a día. Es momento de hacer preguntas como ¿qué pasará en este momento de aprendizaje? ¿cómo aplicaré mis conocimientos, habilidades y actitudes en mi contexto?, para hallar respuestas es comento de comenzar. 
+    p.mb-5.texto-resaltado Luego de reconocer el contexto y las condiciones de aprendizaje que debes aplicar día a día. Es momento de hacer preguntas como 
+      span.etiqueta.text-bold ¿qué pasará en este momento de aprendizaje? ¿cómo aplicaré mis conocimientos, habilidades y actitudes en mi contexto?
+      | , para hallar respuestas es comento de comenzar. 
 
 
 </template>
@@ -50,11 +52,11 @@ export default {
       {
         titulo: '¿Quiénes están en el curso?',
         texto:
-          '<p class="mb-3">Los cursos virtuales son entornos de aprendizaje  donde convergen contenidos, recursos y personas que de una forma intencionada forman una comunidad de aprendizaje y práctica.</p> <img src=".../assets/curso/imagen-intro.png" alt="Imagen Intro"> <p>Es decir no estás solo, tiene un conjunto de personas de diferentes lugares que se unen a sus reflexiones e inquietudes, por eso no olvide participar de los foros y otras herramientas del curso para comunicarse.</p>',
+          '<p class="mb-3">Los cursos virtuales son entornos de aprendizaje  donde convergen contenidos, recursos y personas que de una forma intencionada forman una comunidad de aprendizaje y práctica.</p> <p>Es decir no estás solo, tiene un conjunto de personas de diferentes lugares que se unen a sus reflexiones e inquietudes, por eso no olvide participar de los foros y otras herramientas del curso para comunicarse.</p>',
       },
       {
         texto:
-          'Finalmente, recuerda estos aspectos para iniciar y culminar con éxito el curso.',
+          'Organiza un horario de estudio individual y colaborativo. <br>Revisa las notificaciones del curso constantemente. <br>Participa de los foros y actividades sugeridas por el instructor. <br>Entrega las evidencias esperadas durante este componente de formación. Si tienes alguna inquietud no dudes en escribirnos. <br>Finalmente, recuerda estos aspectos para iniciar y culminar con éxito el curso.',
       },
     ],
   }),
