@@ -77,10 +77,19 @@
             .h4 Tecnología
             span.text-bold Descripción hipotética
             p En esta asignatura se presentan diversos escenarios:
+              ul.lista2.lista-ul--color.p-1.mt-2
+                li 
+                  i.fas.fa-circle
+                  p La asignatura no se dicta.
+                li 
+                  i.fas.fa-circle
+                  p Es una asignatura de baja prioridad y tiene una intensidad horaria baja, se dictan solo temas de informática y ofimática.
+                li 
+                  i.fas.fa-circle
+                  p La asignatura, aunque tiene una prioridad baja, incluye temas de electrónica, robótica o el uso de tecnología educativa de última generación. 
           .col-md-6
             figure
               img(src='@/assets/curso/tema1-tecnologia.jpg', alt='Tecnología')
-              figcaption Leyenda de la imagen
 
       .py-4.py-md-5(titulo="Ingeniería" :icono="require('@/assets/curso/ingenieria.svg')")
         .row
@@ -187,7 +196,7 @@
                       figure
                         img(src='@/assets/curso/pei3.svg', alt='Integración curricular')
                     .col-lg-8
-                      ul.lista-ul--color
+                      ul.lista2.lista-ul--color
                         li 
                           i.fas.fa-check
                           p Nuevo plan de estudios. 
@@ -204,7 +213,7 @@
                           i.fas.fa-check
                           p Temas que se deben dictar.
                 td.p-4 Los docentes necesitan cambiar su forma de dictar la asignatura, pues no solo van a profundizar más en los conceptos, sino que deberán hacerlo de forma integrada con sus colegas.  Por lo tanto, se sugiere tener en cuenta:
-                  ul.lista-ul--color.p-1.mt-2
+                  ul.lista2.lista-ul--color.p-1.mt-2
                     li 
                       i.fas.fa-circle
                       p Listado completo de las asignaturas que requiere el nuevo plan de estudios.
@@ -222,7 +231,7 @@
                       figure
                         img(src='@/assets/curso/pei4.svg', alt='Planificación de temas')
                     .col-lg-8
-                      ul.lista-ul--color
+                      ul.lista2.lista-ul--color
                         li 
                           i.fas.fa-check
                           p Temas del Plan de Estudios. 
