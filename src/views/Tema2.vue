@@ -5,8 +5,8 @@
     
     .titulo-principal
       .titulo-principal__numero
-        .h3 2
-      .h3 Evaluación de Actividades STEM
+        span 2
+      h1 Evaluación de Actividades STEM
 
     figure.mb-4
       img(src='@/assets/curso/banner-tema2.jpg', alt='Evaluación de Actividades STEM')
@@ -19,22 +19,22 @@
             span.text-bold Desde que inicia un proceso de enseñanza en educación STEM, se nota que el proceso de aprendizaje es diferente, veamos una metodología para la evaluación de un diseño STEM.
           .col-lg-6.p-4
             .row.mb-3
-              .col-lg-2
+              .col-lg-2.col-3
                 figure
                   img(src='@/assets/curso/tema2-ico1.svg', alt='Icono 1')
-              .col-lg-9
+              .col-lg-9.col-9
                 p La evaluación se realiza durante toda la instrucción.
             .row.mb-3
-              .col-lg-2
+              .col-lg-2.col-3
                 figure
                   img(src='@/assets/curso/tema2-ico2.svg', alt='Icono 2')
-              .col-lg-9
+              .col-lg-9.col-9
                 p Los estudiantes convierten el objeto de estudio en algo de su interés.
             .row.mb-3
-              .col-lg-2
+              .col-lg-2.col-3
                 figure
                   img(src='@/assets/curso/tema2-ico3.svg', alt='Icono 3')
-              .col-lg-9
+              .col-lg-9.col-9
                 p La evaluación pierde la percepción de ser algo de preocupación para los estudiantes ya que todo aprendizaje está sumergido en la curiosidad y el conocimiento.
 
 
@@ -79,25 +79,25 @@
                   | el sistema de evaluación está diseñado para que ofrezca muchas oportunidades para monitorear el avance y hacer evidente el progreso durante la instrucción.
 
     // 2.1
-    #t_2_1.titulo-segundo.h4.mb-5 2.1 Herramientas más comunes de la educación STEM
+    #t_2_1.titulo-segundo.h2.mb-5 2.1 Herramientas más comunes de la educación STEM
 
     p.mb-5 Cada una de estas deberá seleccionarse de tal manera que sea lo más efectivo para cumplir con las formas de evaluación que mencionaremos a continuación:
 
     .row.tema2-herramientas
       .col-md-4.col-lg-4.mb-5
-        .tarjeta-Avatar
+        .tarjeta-avatar
           img(src='@/assets/curso/herramientas1.svg' alt='Lista de Chequeo')
           .tarjeta.color-acento-contenido.p-4.text-center
             .h4.text-center Lista de Chequeo
             p Es un formato de control, se crea para registrar las actividades planeadas y controlar el cumplimiento de una serie de requisitos o recolectar datos ordenadamente y de forma sistemática.
       .col-md-4.col-lg-4.mb-5
-        .tarjeta-Avatar
+        .tarjeta-avatar
           img(src='@/assets/curso/herramientas2.svg' alt='La Rúbrica')
           .tarjeta.color-secundario.p-4.text-center
             .h4.text-center La Rúbrica
             p Es un conjunto de criterios y normas regidos por el docente, generalmente relacionado con la evaluación de objetivos de aprendizaje, esta evaluación indica el nivel de desempeño o una tarea se trata de una herramienta de calificación utilizada para realizar evaluaciones objetivas.
       .col-md-4.col-lg-4.mb-5
-        .tarjeta-Avatar
+        .tarjeta-avatar
           img(src='@/assets/curso/herramientas3.svg' alt='Pruebas Rápidas de clase')
           .tarjeta.color-acento-contenido.p-4.text-center
             .h4.text-center Pruebas Rápidas de clase
@@ -105,19 +105,19 @@
 
     .row.tema2-herramientas 
       .col-md-4.col-lg-4.mb-5
-        .tarjeta-Avatar
+        .tarjeta-avatar
           img(src='@/assets/curso/herramientas4.svg' alt='Mapas')
           .tarjeta.color-secundario.p-4.text-center
             .h4.text-center Mapas
             p Es un esquema que representa de manera gráfica la ubicación espacial para un tema en concreto.  Esta evaluación permite evaluar la capacidad para resumir y contemplar fácilmente todas las partes y ramificaciones de un tema y sus relaciones. de los estudiantes.
       .col-md-4.col-lg-4.mb-5
-        .tarjeta-Avatar
+        .tarjeta-avatar
           img(src='@/assets/curso/herramientas5.svg' alt='Autoevaluaciones')
           .tarjeta.color-acento-contenido.p-4.text-center
             .h4.text-center Autoevaluaciones
             p Proceso mediante el cual una persona se evalúa a sí misma, es decir, identifica y pondera su desempeño en el cumplimiento de una determinada tarea o actividad, o en el modo de manejar una situación.
       .col-md-4.col-lg-4.mb-5
-        .tarjeta-Avatar.tema2-tarj1
+        .tarjeta-avatar.tema2-tarj1
           img(src='@/assets/curso/herramientas6.svg' alt='Coevaluación')
           .tarjeta.color-secundario.p-4.text-center
             .h4.text-center Coevaluación
@@ -125,19 +125,19 @@
 
     .row.tema2-herramientas 
       .col-md-4.col-lg-4.mb-5
-        .tarjeta-Avatar
+        .tarjeta-avatar
           img(src='@/assets/curso/herramientas7.svg' alt='Organizador gráfico')
           .tarjeta.color-acento-contenido.p-4.text-center
             .h4.text-center Organizador gráfico
             p Es una herramienta pedagógica que utiliza símbolos visuales para expresar conocimiento, conceptos que son presentados y evaluados a través de las relaciones entre ellos.
       .col-md-4.col-lg-4.mb-5
-        .tarjeta-Avatar
+        .tarjeta-avatar
           img(src='@/assets/curso/herramientas8.svg' alt='Mapas mental')
           .tarjeta.color-secundario.p-4.text-center
             .h4.text-center Mapas mental
             p Es una sinopsis gráfica sobre un tema en concreto. Es una evaluación usada para evaluar la capacidad de síntesis de los estudiantes sobre un tema y sus relaciones.
       .col-md-4.col-lg-4.mb-5
-        .tarjeta-Avatar
+        .tarjeta-avatar
           img(src='@/assets/curso/herramientas9.svg' alt='Portafolios')
           .tarjeta.color-acento-contenido.p-4.text-center
             .h4.text-center Portafolios
@@ -145,19 +145,19 @@
 
     .row.tema2-herramientas 
       .col-md-4.col-lg-4.mb-5
-        .tarjeta-Avatar
+        .tarjeta-avatar
           img(src='@/assets/curso/herramientas10.svg' alt='Conferencias')
           .tarjeta.color-secundario.p-4.text-center
             .h4.text-center Conferencias
             p Es una exposición en público sobre un tema y nos indica la forma en que el ponente ha interpretado el conocimiento conceptual y práctico.
       .col-md-4.col-lg-4.mb-5
-        .tarjeta-Avatar
+        .tarjeta-avatar
           img(src='@/assets/curso/herramientas11.svg' alt='Informes')
           .tarjeta.color-acento-contenido.p-4.text-center
             .h4.text-center Informes
             p El informe es un documento escrito en prosa informativa con el propósito de comunicar sobre algún tema o información del nivel más alto en una organización.
       .col-md-4.col-lg-4.mb-5
-        .tarjeta-Avatar.tema2-tarj2
+        .tarjeta-avatar.tema2-tarj2
           img(src='@/assets/curso/herramientas12.svg' alt='Modelos físicos')
           .tarjeta.color-secundario.p-4.text-center
             .h4.text-center Modelos físicos

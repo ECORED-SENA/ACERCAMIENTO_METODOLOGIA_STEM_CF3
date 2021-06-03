@@ -104,10 +104,15 @@ export default {
     },
     contenidoInstruccional: [
       {
+        nombre: 'Rafael Neftalí Lizcano Reyes',
+        cargo: 'Asesor metodológico y pedagógico',
+        centro: 'Centro Industrial del Diseño y la Manufactura',
+        regional: 'Regional Santander',
+      },
+      {
         nombre: 'María Cristina Hurtado Zúñiga',
         cargo: 'Experta temática',
         centro: 'Centro de Diseño Tecnológico Industrial',
-        regional: 'Regional valle',
       },
       {
         nombre: 'Cristian Metaute Medina',
@@ -116,15 +121,15 @@ export default {
         regional: 'Regional Distrito Capital',
       },
       {
-        nombre: 'Rafael Neftalí Lizcano Reyes',
-        cargo: 'Asesor metodológico y pedagógico',
-        centro: 'Centro Industrial del Diseño y la Manufactura',
-        regional: 'Regional Santander',
-      },
-      {
         nombre: 'Carolina Coca Salazar',
         cargo: 'Revisora metodológica y pedagógica',
         centro: 'Centro de Diseño y Metrología',
+        regional: 'Regional Distrito Capital',
+      },
+      {
+        nombre: 'José Gabriel Ortiz Abella',
+        cargo: 'Corrección de estilo',
+        centro: 'Centro para la Industria de la Comunicación Gráfica del Sena',
         regional: 'Regional Distrito Capital',
       },
     ],
@@ -139,11 +144,19 @@ export default {
       },
       {
         nombre: 'Juan Carlos Tapias Rueda',
-        cargo: 'Diseño web y Producción Audiovisual',
+        cargo: 'Diseño web',
+      },
+      {
+        nombre: ' ',
+        cargo: 'Producción audiovisual',
       },
       {
         nombre: 'Andrea Paola Botello De la Rosa',
-        cargo: 'Desarrollo Front-End',
+        cargo: 'Desarrollo front-end',
+      },
+      {
+        nombre: 'Jhana Johanna Bustillo Ardila',
+        cargo: 'Revisión de contenido',
       },
       {
         centro: 'Centro Industrial del Diseño y la Manufactura',
@@ -152,8 +165,8 @@ export default {
     ],
     gestoresRepositorio: [
       {
-        nombre: 'Brayan Stiven Pinto Diaz',
-        cargo: ['Desarrollo front-end', 'Validación de recursos'],
+        nombre: 'Milady Tatiana Villamil Castellanos',
+        cargo: 'Validación y vinculación en plataforma LMS',
         centro: 'Centro de comercio y servicios',
         regional: 'Regional Tolima',
       },
