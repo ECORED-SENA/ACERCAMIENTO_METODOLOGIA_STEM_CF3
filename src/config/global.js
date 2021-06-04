@@ -1,9 +1,9 @@
 export default {
   global: {
     componenteFormativo:
-      'Acercamiento a la metodología STEM: ideas para implementarla',
+      'Diseño, Planificación y Evaluación de experiencias STEM',
     descripcionCurso:
-      'En este contenido profundiza en las diferentes herramientas de planificación, diseño e implementación de experiencias educativas STEM en el contexto escolar fortaleciendo la importancia del trabajo colaborativo entre pares y el uso de herramientas didácticas acorde las necesidades del entorno.',
+      'En este contenido profundiza en las diferentes herramientas de planificación, diseño e implementación de experiencias educativas STEM en el contexto escolar fortaleciendo la importancia del trabajo colaborativo entre pares y el uso de herramientas didácticas acorde con las necesidades del entorno.',
     imagenBannerPrincipal: require('@/assets/curso/banner-principal.svg'),
     fondoBannerPrincipal: require('@/assets/curso/fondo-banner-principal.png'),
   },
@@ -86,11 +86,6 @@ export default {
         nombreRuta: 'referencias',
       },
       {
-        icono: 'fas fa-download',
-        titulo: 'Descargar material',
-        download: 'downloads/material.zip',
-      },
-      {
         icono: 'far fa-registered',
         titulo: 'Créditos',
         nombreRuta: 'creditos',
@@ -137,14 +132,20 @@ export default {
       {
         nombre: 'Francisco José Lizcano Reyes',
         cargo: 'Responsable del equipo',
+        centro: 'Centro Industrial del Diseño y la Manufactura',
+        regional: 'Regional Santander',
       },
       {
         nombre: 'Leyson Fabian Castaño Perez',
         cargo: 'Soporte organizacional',
+        centro: 'Centro Industrial del Diseño y la Manufactura',
+        regional: 'Regional Santander',
       },
       {
         nombre: 'Juan Carlos Tapias Rueda',
         cargo: 'Diseño web',
+        centro: 'Centro Industrial del Diseño y la Manufactura',
+        regional: 'Regional Santander',
       },
       {
         nombre: ' ',
@@ -153,12 +154,12 @@ export default {
       {
         nombre: 'Andrea Paola Botello De la Rosa',
         cargo: 'Desarrollo front-end',
+        centro: 'Centro Industrial del Diseño y la Manufactura',
+        regional: 'Regional Santander',
       },
       {
         nombre: 'Jhana Johanna Bustillo Ardila',
         cargo: 'Revisión de contenido',
-      },
-      {
         centro: 'Centro Industrial del Diseño y la Manufactura',
         regional: 'Regional Santander',
       },
@@ -195,20 +196,20 @@ export default {
   glosario: [
     {
       termino: 'MEN',
-      significado: 'Ministerio de Educación Nacional',
+      significado: ' Ministerio de Educación Nacional',
     },
     {
       termino: 'StM',
       significado:
-        'Ciencia, tecnología y Matemáticas (con minúscula simboliza que a tecnología tiene poca fuerza en el currículo)',
+        ' Ciencia, tecnología y Matemáticas (con minúscula simboliza que a tecnología tiene poca fuerza en el currículo)',
     },
     {
       termino: 'ABL',
-      significado: 'Aprendizaje Basado en Lecciones',
+      significado: ' Aprendizaje Basado en Lecciones',
     },
     {
       termino: 'ABP',
-      significado: 'Aprendizaje Basado en Proyectos',
+      significado: ' Aprendizaje Basado en Proyectos',
     },
   ],
   complementario: [

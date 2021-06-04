@@ -10,7 +10,7 @@
       h1 Introducción
     
     figure.mb-5
-      img(src="@/assets/curso/banner-intro.jpg", alt="intro confección de falda")
+      img(src="@/assets/curso/banner-intro.jpg", alt="intro STEM")
     
     p.mb-5 Apreciado aprendiz, retomar la educación como objeto de aprendizaje es un reto importante que tienen los agentes educativos y sociales, debido a que ella es un mecanismo fundamental para transformar las formas de enseñar y aprender, y que conllevan a la formación de los ciudadanos. En este sentido se reconoce que cualquier entorno de aprendizaje no será suficiente para encontrar formas absolutas para enseñar y aprender, pero este componente de formación construye un escenario para reflexionar el proceso de enseñanza y aprendizaje desde la educación STEM. Sea bienvenido a esta experiencia de aprendizaje. Le sugerimos revisar el siguiente recurso educativo para identificar el contexto de formación. Adelante. 
 
@@ -57,7 +57,7 @@
         .col-md-12
           .h3 ¿Cómo está estructurado el componente de formación?
           p El componente de formación que contiene una producción intelectual realizada por un experto en Educación STEM, y lo ayudará a una aproximación a la educación STEM.
-          p En cada componente podrás encontrar diferentes recursos de aprendizaje y una actividades de aprendizaje, no olvide buscar la guía de actividades de aprendizaje.
+          p En cada componente podrás encontrar diferentes recursos de aprendizaje y actividades de aprendizaje, no olvide buscar la guía de actividades de aprendizaje.
    
       .row
         .col-md-12
@@ -100,8 +100,8 @@
 
 
     p.mb-5.texto-resaltado Luego de reconocer el contexto y las condiciones de aprendizaje que debes aplicar día a día. Es momento de hacer preguntas como 
-      span.etiqueta.text-bold ¿qué pasará en este momento de aprendizaje? ¿cómo aplicaré mis conocimientos, habilidades y actitudes en mi contexto?
-      | , para hallar respuestas es comento de comenzar. 
+      span.etiqueta.text-bold ¿qué pasará en este momento de aprendizaje? ¿cómo aplicaré mis conocimientos, habilidades y actitudes en mi contexto?,
+      | para hallar respuestas es momento de comenzar. 
 
 
 </template>

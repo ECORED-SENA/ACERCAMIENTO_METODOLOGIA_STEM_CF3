@@ -44,14 +44,14 @@
       .col-lg-10
         .tabla-a2.mb-5 
           table
-            caption Tabla 5. Evaluación STEM. Elaboración propia (2021).
+            caption Evaluación STEM.
             thead
               tr
                 th Ambiente de aprendizaje tipo holístico
-                th Planeación de Unidades y actividades STEM 
+                th Planeación de unidades y actividades STEM 
             tbody.text-left
               tr
-                td.p-4 
+                td.p-4.td-bg 
                   p.text-bold Centrado en el Conocimiento: 
                   | Está basado en lo que queremos que los estudiantes aprendan y estén en capacidad de hacer
                 td.p-4(rowspan='3') 
@@ -70,13 +70,13 @@
                       i.fas.fa-circle
                       p.text-bold ¿Cómo pueden aplicar efectivamente los estudiantes este conocimiento?                                                      
               tr            
-                td.p-4
+                td.p-4.td-bg 
                   p.text-bold Centrado en el estudiante:  
-                  | conecta sus fortalezas, los intereses y las preconcepciones con las actividades y tareas y les permitirá identificarse como personas dentro de una evolución de aprendizaje  
+                  | Conecta sus fortalezas, los intereses y las preconcepciones con las actividades y tareas y les permitirá identificarse como personas dentro de una evolución de aprendizaje  
               tr            
-                td.p-4
+                td.p-4.td-bg 
                   p.text-bold  Centrado en la evaluación: 
-                  | el sistema de evaluación está diseñado para que ofrezca muchas oportunidades para monitorear el avance y hacer evidente el progreso durante la instrucción.
+                  | El sistema de evaluación está diseñado para que ofrezca muchas oportunidades para monitorear el avance y hacer evidente el progreso durante la instrucción.
 
     // 2.1
     #t_2_1.titulo-segundo.h2.mb-5 2.1 Herramientas más comunes de la educación STEM
@@ -88,19 +88,19 @@
         .tarjeta-avatar
           img(src='@/assets/curso/herramientas1.svg' alt='Lista de Chequeo')
           .tarjeta.color-acento-contenido.p-4.text-center
-            .h4.text-center Lista de Chequeo
+            .h4.text-center Lista de chequeo
             p Es un formato de control, se crea para registrar las actividades planeadas y controlar el cumplimiento de una serie de requisitos o recolectar datos ordenadamente y de forma sistemática.
       .col-md-4.col-lg-4.mb-5
         .tarjeta-avatar
           img(src='@/assets/curso/herramientas2.svg' alt='La Rúbrica')
           .tarjeta.color-secundario.p-4.text-center
-            .h4.text-center La Rúbrica
-            p Es un conjunto de criterios y normas regidos por el docente, generalmente relacionado con la evaluación de objetivos de aprendizaje, esta evaluación indica el nivel de desempeño o una tarea se trata de una herramienta de calificación utilizada para realizar evaluaciones objetivas.
+            .h4.text-center La rúbrica
+            p Es un conjunto de criterios y normas regidos por el docente, generalmente relacionado con la evaluación de objetivos de aprendizaje, esta evaluación indica el nivel de desempeño o una tarea, se trata de una herramienta de calificación utilizada para realizar evaluaciones objetivas.
       .col-md-4.col-lg-4.mb-5
         .tarjeta-avatar
           img(src='@/assets/curso/herramientas3.svg' alt='Pruebas Rápidas de clase')
           .tarjeta.color-acento-contenido.p-4.text-center
-            .h4.text-center Pruebas Rápidas de clase
+            .h4.text-center Pruebas rápidas de clase
             p Se usan como una evaluación breve, para medir el crecimiento en conocimientos, habilidades o destrezas.
 
     .row.tema2-herramientas 
@@ -109,7 +109,7 @@
           img(src='@/assets/curso/herramientas4.svg' alt='Mapas')
           .tarjeta.color-secundario.p-4.text-center
             .h4.text-center Mapas
-            p Es un esquema que representa de manera gráfica la ubicación espacial para un tema en concreto.  Esta evaluación permite evaluar la capacidad para resumir y contemplar fácilmente todas las partes y ramificaciones de un tema y sus relaciones. de los estudiantes.
+            p Es un esquema que representa de manera gráfica la ubicación espacial para un tema en concreto.  Esta evaluación permite evaluar la capacidad para resumir y contemplar fácilmente todas las partes y ramificaciones de un tema y sus relaciones con los estudiantes.
       .col-md-4.col-lg-4.mb-5
         .tarjeta-avatar
           img(src='@/assets/curso/herramientas5.svg' alt='Autoevaluaciones')
@@ -134,7 +134,7 @@
         .tarjeta-avatar
           img(src='@/assets/curso/herramientas8.svg' alt='Mapas mental')
           .tarjeta.color-secundario.p-4.text-center
-            .h4.text-center Mapas mental
+            .h4.text-center Mapa mental
             p Es una sinopsis gráfica sobre un tema en concreto. Es una evaluación usada para evaluar la capacidad de síntesis de los estudiantes sobre un tema y sus relaciones.
       .col-md-4.col-lg-4.mb-5
         .tarjeta-avatar
