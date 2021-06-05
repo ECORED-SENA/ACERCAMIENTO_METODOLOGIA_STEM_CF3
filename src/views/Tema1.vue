@@ -10,12 +10,37 @@
 
     figure.mb-4
       img(src='@/assets/curso/banner-tema1.jpg', alt='Planificación de estrategias de diseño: STEM')
-    p.mb-5 De acuerdo con Trujillo Losada (2019) toda organización educativa tiene básicamente las mismas razones para justificar su existencia: una propuesta antropológica, un modelo pedagógico, una estructura de su plan de estudios y su horizonte institucional, que define su existencia, crecimiento y posicionamiento en el sector educativo, generalidades, que establecen con claridad un propósito; sin embargo, las instituciones educativas tienen que ir más allá de estas razones básicas y formales, si quieren diferenciarse y responder a las nuevas necesidades sociales de los nuevos ciudadanos en este nuevo siglo.   
+    p.mb-4 De acuerdo con Trujillo Losada (2019) toda organización educativa tiene básicamente las mismas razones para justificar su existencia: una propuesta antropológica, un modelo pedagógico, una estructura de su plan de estudios y su horizonte institucional, que define su existencia, crecimiento y posicionamiento en el sector educativo, generalidades, que establecen con claridad un propósito; sin embargo, las instituciones educativas tienen que ir más allá de estas razones básicas y formales, si quieren diferenciarse y responder a las nuevas necesidades sociales de los nuevos ciudadanos en este nuevo siglo.   
 
     p.mb-4 Siguiendo esta línea, observa las siguientes imágenes ¿qué observas? Haz una lista de ideas mentales, júntalas y menciona la primera palabra que se te viene a la mente.
     .row.justify-content-md-center.mb-5
-      .col-lg-10.tarjeta.tarjeta--azul
-        SlyderB.p-4(:datos="datosSlyder")
+      .col-lg-7
+        #carouselExampleIndicators.carousel.slide.mb-5(data-bs-ride='carousel')
+          .carousel-indicators
+            button.active(type='button' data-bs-target='#carouselExampleIndicators' data-bs-slide-to='0' aria-current='true' aria-label='Slide 1')
+            button(type='button' data-bs-target='#carouselExampleIndicators' data-bs-slide-to='1' aria-label='Slide 2')
+            button(type='button' data-bs-target='#carouselExampleIndicators' data-bs-slide-to='2' aria-label='Slide 3')
+            button(type='button' data-bs-target='#carouselExampleIndicators' data-bs-slide-to='3' aria-label='Slide 4')
+          .carousel-inner
+            .carousel-item.active
+              figure
+                img(src='@/assets/curso/tema1-slider1.jpg', alt='Grupo de trabajo')
+            .carousel-item
+              figure
+                img(src='@/assets/curso/tema1-slider2.jpg', alt='Personas conversando')
+            .carousel-item
+              figure
+                img(src='@/assets/curso/tema1-slider3.jpg', alt='Carretera al futuro')
+            .carousel-item
+              figure
+                img(src='@/assets/curso/tema1-slider4.jpg', alt='Persona mirando con auriculares')   
+          button.carousel-control-prev(type='button' data-bs-target='#carouselExampleIndicators' data-bs-slide='prev')
+            span.carousel-control-prev-icon(aria-hidden='true')
+            span.visually-hidden Previous
+          button.carousel-control-next(type='button' data-bs-target='#carouselExampleIndicators' data-bs-slide='next')
+            span.carousel-control-next-icon(aria-hidden='true')
+            span.visually-hidden Next      
+
 
     .row.mb-5
       .col-lg-6.texto-resaltado
@@ -305,20 +330,6 @@ export default {
   name: 'Tema1',
   data: () => ({
     // variables de vue
-    datosSlyder: [
-      {
-        imagen: require('@/assets/curso/tema1-slider1.jpg'),
-      },
-      {
-        imagen: require('@/assets/curso/tema1-slider2.jpg'),
-      },
-      {
-        imagen: require('@/assets/curso/tema1-slider3.jpg'),
-      },
-      {
-        imagen: require('@/assets/curso/tema1-slider4.jpg'),
-      },
-    ],
   }),
 }
 </script>
