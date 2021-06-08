@@ -130,7 +130,7 @@
     .row.justify-content-md-center.mb-5
       .col-lg-10.p-5.tarjeta.color-secundario
         h4 Integración de asignaturas
-        p.mb-4 Se observa en la institución y existe oportunidades de integración a partir de experiencias encontradas en la institución, se hallan proyectos escolares basados en investigación que incluyen conocimientos de varias asignaturas. Además, se observa que las ciencias y matemáticas están consolidadas; pero la asignatura de tecnología está en un estado muy inicial y se desarrollan de manera separada.
+        p.mb-4 Se observa en la institución que existe oportunidades de integración a partir de experiencias encontradas en la institución, se hallan proyectos escolares basados en investigación que incluyen conocimientos de varias asignaturas. Además, se observa que las ciencias y matemáticas están consolidadas; pero la asignatura de tecnología está en un estado muy inicial y se desarrollan de manera separada.
 
     
     h4.mb-4 El propósito de la Educación STEM   

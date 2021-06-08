@@ -1,7 +1,7 @@
 export default {
   global: {
     componenteFormativo:
-      'Diseño, Planificación y Evaluación de experiencias STEM',
+      'Diseño, planificación y evaluación de experiencias STEM',
     descripcionCurso:
       'En este contenido profundiza en las diferentes herramientas de planificación, diseño e implementación de experiencias educativas STEM en el contexto escolar fortaleciendo la importancia del trabajo colaborativo entre pares y el uso de herramientas didácticas acorde con las necesidades del entorno.',
     imagenBannerPrincipal: require('@/assets/curso/banner-principal.svg'),

@@ -1,2 +1,2 @@
 module.exports =
-  'Diseño, Planificación y Evaluación de experiencias STEM'
+  'Diseño, olanificación y evaluación de experiencias STEM'
