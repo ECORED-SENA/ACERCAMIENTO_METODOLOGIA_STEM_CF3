@@ -153,7 +153,12 @@ export default {
         regional: 'Regional Santander',
       },
       {
-        nombre: ' ',
+        nombre: [
+          'Zuleidy Maria Ruiz Torres',
+          'Wilson Andrés Arenales Caceres',
+          'Gilberto Junior Rodriguez Rodriguez',
+          'Nelson Vera Briceño',
+        ],
         cargo: 'Producción audiovisual',
       },
       {
