@@ -9,8 +9,8 @@
       h1 Evaluación de Actividades STEM
 
     figure.mb-5
-        .video.mb-5
-          iframe(width="560" height="315" src="https://www.youtube.com/embed/2infOPLG4dg" title="Evaluación de Actividades STEM" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen)
+      .video.mb-5
+        iframe(width="560" height="315" src="https://www.youtube.com/embed/2infOPLG4dg" title="Evaluación de Actividades STEM" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen)
     p.mb-5 La forma tradicional de enseñanza aprendizaje establece fronteras claramente determinadas entre el currículo, la enseñanza y la evaluación, este sistema determina que el estudiante sabe con claridad cuando está en un periodo de tiempo normal de clases y cuando está en momento de exámenes y normalmente se le llama período de exámenes.  En la educación STEM la evaluación está tan inmersa en la enseñanza aprendizaje, que el estudiante estará en un estado constante de aprendizaje-evaluación.    
 
     .row.justify-content-md-center.mb-5
@@ -53,7 +53,7 @@
             tbody.text-left
               tr
                 td.p-4.td-bg 
-                  p.text-bold Centrado en el Conocimiento: 
+                  p.text-bold Centrado en el conocimiento: 
                   | Está basado en lo que queremos que los estudiantes aprendan y estén en capacidad de hacer
                 td.p-4(rowspan='3') 
                   p.mb-4  Durante el proceso de diseño e instrucción de actividades STEM debemos siempre plantearnos las siguientes preguntas:

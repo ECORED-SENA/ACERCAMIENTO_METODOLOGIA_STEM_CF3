@@ -163,7 +163,7 @@
                 td.p-4.td-center S, M, T
                 td.p-4 Incluir todas las asignaturas STEM de tecnología de forma separada.
               tr            
-                td.p-4(rowspan='5') Se dictan las asignaturas STEM de forma separada, excepto ingeniería.
+                td.p-4(rowspan='5') Se incluyen todas las asignaturas STEM de manera separada.
                 td.p-4.td-center S, T, E, M
                 td.p-4 Tecnología e Ingeniería se dictarán de forma integrada.  
               tr            
@@ -194,17 +194,17 @@
                 th Actualización
             tbody.text-left
               tr
-                td.p-4 Horizonte Institucional
+                td.p-4 Horizonte institucional
                 td.p-4  
                   .row.align-items-center
                     .col-lg-4 
                       figure
                         img(src='@/assets/curso/pei1.svg', alt='Horizonte Institucional')
                     .col-lg-8
-                      p Visión y Misión 
+                      p Visión y misión 
                 td.p-4 Es posible que la visión y la misión de la institución educativa sufra algún cambio o que los proyectos institucionales tomen otra connotación o pierdan vigencia.                                             
               tr            
-                td.p-4 Plan de Estudios
+                td.p-4 Plan de estudios
                 td.p-4  
                   .row.align-items-center
                     .col-lg-4 
@@ -320,9 +320,12 @@
 
     p.mb-5 A continuación, presentaremos la experiencia significativa desde el enfoque de la educación STEM. Esta se desarrollará a partir de unos pasos que inician desde el reconocimiento de los conocimientos previos de los alumnos y por una secuencia de acciones integradas para resolver una pregunta. Esta experiencia está basada en el Aprendizaje Basado en Lecciones.  Observa el siguiente recurso de aprendizaje con el paso a paso. Adelante. 
     figure
-      img(src='@/assets/curso/video.jpg', alt='Ejemplos de diseño de estrategias de aprendizaje con STEM')
-  
+      .video.mb-5
+        iframe(width="560" height="315" src="https://www.youtube.com/embed/ejRPDDZnWh0" title="Evaluación de Actividades STEM" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen)
         
+
+
+
 </template>
 
 <script>
