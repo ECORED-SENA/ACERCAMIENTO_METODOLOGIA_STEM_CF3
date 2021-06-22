@@ -30,7 +30,7 @@ export default {
           {
             icono: 'far fa-file-alt',
             numero: '1.1',
-            titulo: '¿Cómo surge la educación STEM?',
+            titulo: 'Identifica oportunidades de planeación de diseño STEM',
             hash: 't_1_1',
           },
           {
