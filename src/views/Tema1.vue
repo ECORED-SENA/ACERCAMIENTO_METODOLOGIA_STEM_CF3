@@ -318,10 +318,10 @@
     // 1.3
     #t_1_3.titulo-segundo.h2.mb-5 1.3 Ejemplos de diseño de estrategias de aprendizaje con STEM     
 
-    p.mb-5 A continuación, presentaremos la experiencia significativa desde el enfoque de la educación STEM. Esta se desarrollará a partir de unos pasos que inician desde el reconocimiento de los conocimientos previos de los alumnos y por una secuencia de acciones integradas para resolver una pregunta. Esta experiencia está basada en el Aprendizaje Basado en Lecciones.  Observa el siguiente recurso de aprendizaje con el paso a paso. Adelante. 
+    p.mb-5 A continuación, presentaremos la experiencia significativa desde el enfoque de la educación STEM. Esta se desarrollará a partir de unos pasos que inician desde el reconocimiento de los conocimientos previos de los alumnos y por una secuencia de acciones integradas para resolver una pregunta. Esta experiencia está basada en el Aprendizaje Basado en Lecciones.  Observa el siguiente vídeo. Adelante. 
     figure
       .video.mb-5
-        iframe(width="560" height="315" src="https://www.youtube.com/embed/ejRPDDZnWh0" title="Evaluación de Actividades STEM" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen)
+        iframe(width="560" height="315" src="https://www.youtube.com/embed/PuwTb_zHB-Y" title="Evaluación de Actividades STEM" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen)
         
 
 
